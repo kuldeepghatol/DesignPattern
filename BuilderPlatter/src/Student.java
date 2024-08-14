@@ -1,10 +1,10 @@
 public class Student {
 
-    int id;
-    String name;
-    int gradeYear;
-    long mobileNumber;
-    String emailId;
+    private int id;
+    private String name;
+    private int gradeYear;
+    private long mobileNumber;
+    private String emailId;
 
     public Student(int id,
                    String name,
@@ -33,11 +33,11 @@ public class Student {
         return new Builder();
     }
     public static class Builder {
-        int id;
-        String name;
-        int gradeYear;
-        int mobileNumber;
-        String emailId;
+        private int id;
+        private String name;
+        private int gradeYear;
+        private int mobileNumber;
+        private String emailId;
 
         public Builder id(int id) {
             this.id = id;

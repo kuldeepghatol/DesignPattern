@@ -7,6 +7,7 @@ public class Main {
             .id(1)
             .emailId("kuldeepghatol@gmail.com")
             .mobileNumber(1235)
+            .name("Kuldeep")
             .build();
 
         System.out.println(student);
