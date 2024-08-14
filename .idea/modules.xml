@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuilderPlatter/BuilderPlatter.iml" filepath="$PROJECT_DIR$/BuilderPlatter/BuilderPlatter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DesignPattern.iml" filepath="$PROJECT_DIR$/.idea/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingletonAdavance/SingletonAdavance.iml" filepath="$PROJECT_DIR$/SingletonAdavance/SingletonAdavance.iml" />
     </modules>
