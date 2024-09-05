@@ -2,8 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
-        GoogleRouteCalculatorFactory.getFactory(Mode.WALK).calculateRoute("PUNE", "MUMBAI");
-
+        Maps maps = new Maps();
+        maps.findPath("PUNE", "MUMBAI", Mode.BYKE);
     }
 }
