@@ -1,7 +1,7 @@
 public class GoogleRouteCalculatorFactory {
 
 
-    public static GoogleRouteCalculator getFactory(Mode mode) {
+    public static RouteCalculator getFactory(Mode mode) {
 
          switch (mode){
              case BYKE -> {
@@ -11,7 +11,7 @@ public class GoogleRouteCalculatorFactory {
                  return new CarRouteCalculator();
              }
              default -> {
-                 return new WakeRouteCalculator();
+                 return new WalkRouteCalculator();
              }
          }
 
